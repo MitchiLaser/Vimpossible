@@ -1,0 +1,40 @@
+html,
+body{
+	margin: 0;
+	padding: 0;
+	border: none;
+	height: 100vh;
+	width: 100vw;
+	font-size: 1em;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+body > *{
+	display: block;
+	padding: 2vh 5vw;
+	margin: 0;
+}
+body h1:nth-of-type(1){
+	font-size: 5rem;
+	color: #01579B;
+	border-bottom: solid 1px #01579B;
+	flex: 0 0 auto;
+}
+body h1:nth-of-type(2),
+body h1:nth-of-type(3){
+	flex: 1 1 auto;
+	align-self: center;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+}
+body p{
+	background-color: #424242;
+	color: #FAFAFA;
+	flex: 0 0 auto;
+	font-size: 2rem;
+}

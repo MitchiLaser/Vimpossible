@@ -1,0 +1,14 @@
+[
+	{
+		"mode":"normal",
+		"topic":"Exiting",
+		"shortcut":":q",
+		"description":"Close file"
+	},
+	{
+		"mode":"normal",
+		"topic":"Exiting",
+		"shortcut":":qa",
+		"description":"Close all files"
+	}
+]
